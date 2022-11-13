@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Run TypeScript across all files instead of only changed files,
+# because a changed file could break unchanged files
+npx tsc --noEmit
+
+# Use lint-staged to run commands on changed files only.
+npx lint-staged

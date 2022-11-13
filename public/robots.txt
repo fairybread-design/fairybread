@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://figura.finance
+
+# Sitemaps
+Sitemap: https://figura.finance/sitemap.xml

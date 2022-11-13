@@ -1,0 +1,18 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '6.0.3',
+0 silly argv   '$0': '/Users/lukeunderwood/.npm/_npx/d5cad42883f80c04/node_modules/.bin/lerna',
+0 silly argv   name: 'button'
+0 silly argv }
+1 notice cli v6.0.3
+2 verbose rootPath /Users/lukeunderwood/Documents/GitHub.nosync/design-system
+3 error Error: canceled
+3 error     at Interface.<anonymous> (/Users/lukeunderwood/.npm/_npx/d5cad42883f80c04/node_modules/read/lib/read.js:66:13)
+3 error     at Interface.emit (node:events:527:28)
+3 error     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1123:18)
+3 error     at ReadStream.onkeypress (node:internal/readline/interface:272:20)
+3 error     at ReadStream.emit (node:events:527:28)
+3 error     at emitKeys (node:internal/readline/utils:358:14)
+3 error     at emitKeys.next (<anonymous>)
+3 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+3 error     at ReadStream.emit (node:events:527:28)
