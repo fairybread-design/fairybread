@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.package-build.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist/types",
+  },
+  "include": ["src/**/*.tsx"],
+  "exclude": ["node_modules", "**/*.stories.ts*", "src/**/*.spec.ts*", "src/**/*.test.ts*"],
+}

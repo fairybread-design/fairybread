@@ -8,20 +8,22 @@
   "author": "Luke Underwood <luke@snarkie.com.au>",
   "homepage": "https://fairybread.design/components/button",
   "license": "MIT",
-  "main": "lib/button.js",
+  "main": "dist/bundle.js",
+  "types": "dist/src/index.d.ts",
   "directories": {
-    "lib": "lib",
+    "dist": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fairybread-design/fairybread.git"
   },
   "scripts": {
-    "build": "webpack ./src/index.tsx --mode production --config ../../webpack-package-build.config.js",
+    "build": "webpack ./src/index.tsx --config ../../webpack-package-build.config.js",
+    "build:types": "tsc --emitDeclarationOnly",
     "test": "node ./__tests__/button.test.js"
   },
   "bugs": {
